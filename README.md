@@ -50,18 +50,18 @@ make run
 You should add those hosts to your `/etc/hosts` file:
 
 ```
-0.0.0.0 api.wb.local
-0.0.0.0 auth.wb.local
+0.0.0.0 api.zenbitex.com
+0.0.0.0 auth.zenbitex.com
 
-0.0.0.0 ws.ranger.wb.local
+0.0.0.0 ws.ranger.zenbitex.com
 
-0.0.0.0 pma.wb.local
-0.0.0.0 monitor.wb.local
+0.0.0.0 pma.zenbitex.com
+0.0.0.0 monitor.zenbitex.com
 
-0.0.0.0 btc.wb.local
-0.0.0.0 eth.wb.local
+0.0.0.0 btc.zenbitex.com
+0.0.0.0 eth.zenbitex.com
 
-0.0.0.0 mail.wb.local
+0.0.0.0 mail.zenbitex.com
 ```
 
 Now you have peatio up and running.

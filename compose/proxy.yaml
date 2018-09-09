@@ -13,13 +13,13 @@ services:
     networks:
       default:
         aliases:
-          - api.wb.local
-          - auth.wb.local
-          - ws.ranger.wb.local
-          - pma.wb.local
-          - eth.wb.local
-          - monitor.wb.local
+          - api.zenbitex.com
+          - auth.zenbitex.com
+          - ws.ranger.zenbitex.com
+          - pma.zenbitex.com
+          - eth.zenbitex.com
+          - monitor.zenbitex.com
     labels:
       traefik.enable: true
-      traefik.frontend.rule: 'Host: monitor.wb.local'
+      traefik.frontend.rule: 'Host: monitor.zenbitex.com'
       traefik.port: 8080

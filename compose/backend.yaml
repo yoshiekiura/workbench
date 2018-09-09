@@ -31,7 +31,7 @@ services:
       PHP_MAX_INPUT_VARS: 1G
     labels:
       traefik.enable: true
-      traefik.frontend.rule: 'Host: pma.wb.local'
+      traefik.frontend.rule: 'Host: pma.zenbitex.com'
       traefik.port: 80
 
   rabbitmq:
@@ -41,7 +41,7 @@ services:
       - rabbitmq_data:/var/lib/rabbitmq
     labels:
       traefik.enable: true
-      traefik.frontend.rule: 'Host: rabbitmq.wb.local'
+      traefik.frontend.rule: 'Host: rabbitmq.zenbitex.com'
       traefik.port: 15672
 
   vault:
@@ -62,7 +62,7 @@ services:
       - ../config/peatio.env
     labels:
       traefik.enable: true
-      traefik.frontend.rule: 'Host: ws.ranger.wb.local'
+      traefik.frontend.rule: 'Host: ws.ranger.zenbitex.com'
       traefik.port: 8081
     command: bash -c "bundle exec peatio service start ranger"
 
@@ -70,7 +70,7 @@ services:
     image: schickling/mailcatcher
     labels:
       traefik.enable: true
-      traefik.frontend.rule: 'Host: mail.wb.local'
+      traefik.frontend.rule: 'Host: mail.zenbitex.com'
       traefik.port: 1080
 
 volumes:
