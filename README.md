@@ -11,14 +11,14 @@ Workbench is an easy way to start Peatio development environment.
 - Docker [installed](https://docs.docker.com/engine/installation/)
 - Docker Compose [installed](https://docs.docker.com/compose/install/)
 
-## Usage
+## Usagehttps://github.com/yoshiekiura/workbench.git
 
 ### Prepare the workbench
 
 1. Recursive clone
 
 ```sh
-git clone --recursive https://github.com/rubykube/workbench.git
+git clone --recursive https://github.com/yoshiekiura/workbench.git
 ```
 
 2. Move to workbench
